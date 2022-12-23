@@ -1,0 +1,24 @@
+#Run the Main.java file.
+#You can see the parameters that must be entered to make the program work.
+
+     
+
+	Usage: java Main n xy [xy ...]
+
+        n is number of integers to sort
+        x is one of
+        	b - bubblesort
+        	i - insertion sort
+        	s - selection sort
+        	q - quicksort
+        	m - mergesort
+        	y is one of
+         	a - 1..n ascending
+        	d - 1..n descending
+        	r - 1..n in random order
+          	n - 1..n nearly sorted (10% moved)
+
+
+#EXAMPLE:
+java Main 100 ba
+   
