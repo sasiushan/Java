@@ -1,0 +1,11 @@
+#Run the Main.java file.
+#Upon run enter the name of the file.
+#When the file is run, the following are displayed:
+
+The total number of entries : ?
+
+The number of entries with omitted lines : ? 
+
+The Maximum temperature is : ? 
+
+The Minimum temperature is: ?
