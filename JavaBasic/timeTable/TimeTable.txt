@@ -1,0 +1,15 @@
+BEGIN
+MAIN TimeTable
+
+	num = -1 
+	WHILE(num < 1) OR (num > 12)
+		OUTPUT "Enter a number in the range 1 to 12"
+		num = GET user input
+
+	FOR table = 1 to num CHANGEBY 1 
+		OUTPUT "the" table "Times Table"
+		FOR number = 1 to 12 CHANGEBY 1
+			OUTPUT table "x" number " = " (table * number)
+		ENDFOR
+	ENDFOR 	
+

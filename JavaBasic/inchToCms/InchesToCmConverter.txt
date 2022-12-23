@@ -1,0 +1,12 @@
+MAIN
+	INPUT Inches
+	cm = convertInchesToCms <- Inches
+	OUTPUT " cms are: " + cms
+END MAIN
+
+METHOD: convertInchesToCms
+IMPORT: inches
+EXPORT: cms
+ALGORITHM:
+	cm = inches * 2.45
+END convertInchesToCms	

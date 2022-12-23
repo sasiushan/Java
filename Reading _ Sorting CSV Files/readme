@@ -1,0 +1,4 @@
+#Run the MainCSV.java file.
+#Enter the name of the csv file you wish to read.
+#The data will be sorted using bubble as the file is read. 
+#Output will be displayed on the terminal

@@ -1,0 +1,13 @@
+MAIN
+	INPUT x
+	INPUT y
+	average = calculateAvg(x, y)
+	OUTPUT average
+END MAIN
+
+METHOD: calculateAverage
+IMPORT: a, b
+EXPORT: avg
+ALGORITHM:
+	mean = (a + b)/2.0
+END calculateAvg	
